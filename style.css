@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');    
+body{
+    height:100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+}
+.main{
+    border-radius: 0.5rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#first{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left:40px;
+    padding-right: 40px;
+    background-color: white;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+#second{
+    display: grid;
+    grid-auto-flow: column;
+}
+#one{
+    background-color: hsl(179, 62%, 43%);
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left:40px;
+    padding-right: 40px;
+    border-bottom-left-radius: 0.5rem;
+}
+#two{
+    background-color: hsl(179, 62%, 43%, 0.8);
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left:40px;
+    padding-right: 40px;
+    border-bottom-right-radius: 0.5rem;
+}
+#first p{
+    width: 550px;
+    line-height: 25px;
+}
+#second p{
+    color: hsl(204, 43%, 93%);
+}
+#first p{
+    color: hsl(218, 22%, 67%);
+}
+article{
+    color:hsl(71, 73%, 54%);
+    font-weight: 700;
+    font-size: 18px;
+}
+h2{
+    color:hsl(179, 62%, 43%)
+}
+#one p{
+    color: white;
+}
+h3{
+    color: white;
+}
+#price{
+    font-size: 30px;
+    font-weight: 700;
+}
+#month{
+    color: hsl(204, 43%, 93%,0.5);
+}
+section{
+    border-radius: 0.5rem;
+    padding: 15px;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    font-weight: 700;
+    margin-top: 35px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+}
+li{
+    list-style: none;
+    text-indent: none;
+    line-height: 23px;
+    color: hsl(204, 43%, 93%);
+    padding-right: 70px;
+}
+@media (max-width:900px){
+    #second{
+        display: grid;
+        grid-auto-flow: row;
+    }
+    .main{
+        width: 90vw;
+
+        margin-top: 20px;
+    }
+    #first p{
+        width: 100%;
+    }
+    #two{
+        margin-bottom:20px;
+        border-bottom-right-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+    }
+    #one{
+        border-radius: 0;
+    }
+    #two p{
+        width: 100%;
+    }
+
+}
